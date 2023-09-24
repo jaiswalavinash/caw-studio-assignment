@@ -1,0 +1,41 @@
+.orderDetails{
+    top: 13rem;
+    height: 8rem;
+    width: 90%;
+    left: 5%;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    border: 0.1rem solid rgb(0 0 0 / 20%);
+}
+.supplier{
+    margin: 2rem 0 2rem 2rem;
+    display: inline-block;
+    position: absolute;
+    width: 15%;
+    top:  0.2rem;
+    font-size: 1vw;
+}
+.supplier span:nth-child(1){
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+.supplier span:nth-child(n+2){
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+.verticalLine {
+    border-left: 1px solid rgb(0 0 0 / 20%);; 
+    height: 5rem; 
+    margin: 1.5rem 0 0 13.5rem;
+    display: inline-block;
+  }
+  .categoryIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.4rem;
+  }
+  

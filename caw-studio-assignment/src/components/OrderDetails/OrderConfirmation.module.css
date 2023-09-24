@@ -1,0 +1,51 @@
+.orderConfirmation{
+    position: absolute;
+    top: 5rem;
+    width: 100%;
+    height: 6.5rem;
+    background-color: #fff;
+    box-shadow:  0px 0.3rem 0.5rem #999999;
+}
+.order{
+    display: flex;
+    color: #888888;
+    margin: 1rem 0 0rem 1rem;
+}
+.order p{
+    text-decoration: underline;
+}
+.orderNumberHighlight{
+    display: flex;
+    font-weight: bold;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+}
+.icon{
+    width: 1.35rem;
+    height: 1.35rem;
+}
+.orderbtn{
+    margin-right: 6rem;
+    bottom: 2rem;
+}
+.orderbtn button{
+   color: #024d1b;
+   font-size: medium;
+   padding: 0.5rem;
+   margin: 1rem;
+   border-radius: 2rem;
+   font-weight: bold;
+   border: 2px solid #024d1b ;
+   cursor: pointer;
+}
+.orderbtn .approve{
+    background-color: #097f30;
+    border: 2px solid #097f30;
+    color: #fff;
+}
+.orderbtn button:hover{
+    background-color: #024d1b;
+    color: #fff;
+}

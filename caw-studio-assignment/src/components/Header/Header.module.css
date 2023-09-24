@@ -1,0 +1,45 @@
+.header {
+    top:0px;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    background-color: #024d1b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+  }
+  .nav{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 0 10rem;
+  }
+  .nav a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+  }
+  .cartAndUser{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 7rem ;
+  }
+  .carticon {
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 4rem;
+  }
+  .downarrowicon{
+    width: 1.35rem;
+    height: 1.35rem;
+  }
+  .userName{
+    display: flex;
+    align-items: center;
+  }

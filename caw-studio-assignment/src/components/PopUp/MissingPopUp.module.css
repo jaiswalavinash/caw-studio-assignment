@@ -1,0 +1,58 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 12;
+}
+.popUp{
+    width: 25rem;
+    height: 11rem;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.popupHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem 1.5rem 1rem ;
+    padding: 2rem 0 0 0;
+}
+.popupHeader h2{
+    font-size: 1.2rem;
+}
+.crossIcon{
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+.warningMsg{
+    display: flex;
+    align-items: center;
+}
+.highlight{
+    margin-left: 1rem;
+}
+.content{
+    display: inline-block;
+    width: 15rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.popUpBtn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 2rem 1rem 1rem 0 ;
+}
+.popUpBtn span{
+    margin: 0 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}

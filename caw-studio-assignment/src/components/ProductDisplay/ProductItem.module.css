@@ -1,0 +1,61 @@
+.productItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 93%;
+    left: 5%;
+    height: 4rem;
+    border-bottom: 0.1rem solid rgb(0 0 0 / 40%);
+    margin: 0 0 0.5rem 2rem;
+}
+.productDetails{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.productItem p{
+    margin-right: 5.5rem;
+    font-size: 0.85vw;
+    font-weight: 600;
+    color:  rgb(0 0 0 / 50%);
+}
+.imgDimension{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.status{
+    display: flex;
+    align-items: center;
+}
+.status span , a{
+    text-decoration: none;
+    color: rgb(0 0 0 / 50%);
+    cursor: pointer;
+}
+.status button{
+    color: #fff;
+    font-size: medium;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    border: 0px;
+}
+.status .approved{
+    background-color: #0dca4c;
+    font-weight: 400;
+}
+.status .missingUrgent{
+    background-color: red;
+    font-weight:  400;
+}
+.status .missing{
+    background-color: rgb(223, 73, 73);
+    font-weight: 400;
+}
+.checkIcon, .crossIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    cursor: pointer;
+}
